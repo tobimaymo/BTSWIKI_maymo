@@ -1,0 +1,20 @@
+@import "estructura";
+ul {
+    list-style: none;
+    background-color: black;
+    li {
+        display: inline-block;
+        padding: 15px;
+        a{
+            color: white;
+            text-decoration: none;
+            &:hover{
+                color: violet
+            }
+        }
+    }
+    
+}
+.imgborde {
+    border: black solid 4px;
+}
